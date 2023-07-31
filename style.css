@@ -1,0 +1,34 @@
+@import url('/style/reset.css');
+@import url('/style/header.css');
+@import url('/style/banner.css');
+@import url('/style/section_books.css');
+@import url('/style/footer.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+:root{
+    --color-bk-gray: #EBECEE;
+    --color-bk-white: #fff;
+    --primary-font: 'Poppins', sans-serif;
+    --font-name-app: 'Josefin Sans', sans-serif;
+    --primary-color: #EB9B00;
+    --color-menu-gradient: rgba(0, 47, 82, 1);
+    --color-blue-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --color-white: white;
+    --color-black: black;
+    --cinza: gray;
+    --color-font-books: #EB9B00;
+    --color-font-primary-footer: #858585;
+    --color-box-shadow-card: rgba(0, 0, 0, 0.25);
+    --color-font-terciary: #002F52;
+    --color-font-p-card: rgba(0, 0, 0, 0.85);
+    --color-bk-gradient: linear-gradient(160deg, #002F52 0%, #326589 100%);
+}
+
+body{
+    background-color: var(--color-bk-gray);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+}
